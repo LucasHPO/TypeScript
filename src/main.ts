@@ -5,7 +5,7 @@
 //     return a * b;
 // }
 
-const multiplicar = (a: number,b: number):number => {return a * b};
+const multiplicar = (a: number,b: number):number | string => {return 'Total da multiplicação: ' + a * b};
 
 console.log(multiplicar(9,5)); 
 
